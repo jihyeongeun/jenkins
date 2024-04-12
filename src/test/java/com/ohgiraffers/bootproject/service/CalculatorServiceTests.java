@@ -24,7 +24,8 @@ class CalculatorServiceTests {
 	private static Stream<Arguments> provideDTOSource(){
 		return Stream.of(
 			Arguments.of(new CalculatorDTO(1, 2)),
-			Arguments.of(new CalculatorDTO(3, 6))
+			Arguments.of(new CalculatorDTO(3, 6)),
+			Arguments.of(new CalculatorDTO(3, 7))
 
 		);
 	}
